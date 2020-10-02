@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Гиппопотам</title>
+
+    <!--Линки внешних файлов-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" href="links/styles/generalStyle.css">
+    <link rel="stylesheet" href="links/styles/fixedProperties.css">
+    <link rel="stylesheet" media="screen and (color)" href="links/styles/mediaQueries.css">
+    <script src="links/scriptsFront/jqScripts.js"></script>
+
+    <!--<link rel="shortcut icon" href="links/images/title.png" type="image/png">-->
+</head>
+<body class="vertical-display-between">
+
+    <!--Меню, логотип, автоскролл-->
+    <div class="topbar-block horizon-display-around">
+        <img src="links/images/greenLogo.png" id="image-logo">
+        <nav class="horizon-display-around">
+            <a class="menu-item">О нас</a>
+            <a class="menu-item">Наши услуги</a>
+            <a class="menu-item">Наши слоны</a>
+            <a class="menu-item">Блог</a>
+            <a class="menu-item">Контакты</a>
+        </nav>
+    </div>
+    <p class="scroller-body">›</p>
+
+    <!--Кнопка "Больше о нас", "Слоновья ферма Гиппопотам - 15 лет..."-->
+    <div class="title-block vertical-display-between">
+        <div class="empty-block"></div>
+        <div class="empty-block"></div>
+        <div class="empty-block"></div>
+        <h1 class="white-text open-word">Слоновья ферма «Гиппопотам» - 15 лет выращиваем и воспитывем слонов</h1>
+        <a class="buttons white-text">Больше о нас</a>
+        <div class="empty-block"></div>
+    </div>
+
+    <!--"Кто мы такие?", статистика-->
+    <div class="about-info-block vertical-display-around">
+        <p class="little-open-word">Кто мы такие?</p>
+        <p class="general-text">Слоновья ферма «Гиппопотам» — уникальная в своем роде ферма. Мы не просто выращиваем слонов, но <span>занимаемся их воспитанием и обучением</span>. Мы учим их жить в современном социуме и помогаем людям найти с ними общий язык.</p>
+        <div class="empty-block"></div>
+        <div class="statistic-block horizon-display-around" style="justify-content: center">
+            <div class="statistic-item vertical-display-around" style="border-left: none;"><p class="statistic-number">142</p><p class="statistic-text">слона куплено</p></div>
+            <div class="statistic-item vertical-display-around"><p class="statistic-number">100</p><p class="statistic-text">счастливых клиентов</p></div>
+            <div class="statistic-item vertical-display-around"><p class="statistic-number">15</p><p class="statistic-text">международных наград</p></div>
+            <div class="statistic-item vertical-display-around"><p class="statistic-number">99</p><p class="statistic-text">слонов ждут своих хозяев</p></div>
+            <div class="statistic-item vertical-display-around"><p class="statistic-number">58</p><p class="statistic-text">проведенных мероприятий</p></div>
+            <div class="statistic-item vertical-display-around" style="border-right: none;"><p class="statistic-number">12</p><p class="statistic-text">проведенных мероприятий</p></div>
+        </div>
+    </div>
+
+    <!--Наши услуги, "Хочу на слоновью ферму"-->
+    <div class="price-block vertical-display-around">
+        <p class="little-open-word">Наши услуги</p>
+        <p class="general-text">Мы предоставляем полный спектр услуг: от катания на слонах до помощи оформления документов на их усыновление. Оставляйте заявку, наши специалисты помогут вам определиться и выбрать лучшее предложение.</p>
+        <div class="price-menu horizon-display-around" style="flex-wrap: wrap;">
+            <div class="price image" style='background-image: url("links/images/slonovja-ferma.jpg")'>
+                <h2 class="price-open-text">Слоновья ферма</h2>
+                <div class="green-price">
+                    <p class="general-text" style="color: white; width: 40%; text-align: left; margin: 30% 0 0 9%;">Популярное развлечение и интересная активность для корпоративов и деловых встреч.</p>
+                </div>
+            </div>
+            <div class="price image" style='background-image: url("links/images/slonoterapia.jpg")'>
+                <h2 class="price-open-text">Слонотерапия</h2>
+                <div class="green-price">
+                    <p class="general-text" style="color: white; width: 40%; text-align: left; margin: 30% 0 0 9%;">Популярное развлечение и интересная активность для корпоративов и деловых встреч.</p>
+                </div>
+            </div>
+            <div class="price image" style='background-image: url("links/images/katanie-na-slonah.jpg")'>
+                <h2 class="price-open-text">Катание на слонах</h2>
+                <div class="green-price">
+                    <p class="general-text" style="color: white; width: 40%; text-align: left; margin: 30% 0 0 9%;">Популярное развлечение и интересная активность для корпоративов и деловых встреч.</p>
+                </div>
+            </div>
+            <div class="price image" style='background-image: url("links/images/skola_slonov.jpg")'>
+                <h2 class="price-open-text">Школа слонов</h2>
+                <div class="green-price">
+                    <p class="general-text" style="color: white; width: 40%; text-align: left; margin: 30% 0 0 9%;">Популярное развлечение и интересная активность для корпоративов и деловых встреч.</p>
+                </div>
+            </div>
+            <div class="price image" style='background-image: url("links/images/slugba-usinovlenia.jpg")'>
+                <h2 class="price-open-text">Служба усыновления</h2>
+                <div class="green-price">
+                    <p class="general-text" style="color: white; width: 40%; text-align: left; margin: 30% 0 0 9%;">Популярное развлечение и интересная активность для корпоративов и деловых встреч.</p>
+                </div>
+            </div>
+            <div class="price image" style='background-image: url("links/images/foto-so-slonom.jpg")'>
+                <h2 class="price-open-text">Фото со слоном</h2>
+                <div class="green-price">
+                    <p class="general-text" style="color: white; width: 40%; text-align: left; margin: 30% 0 0 9%;">Популярное развлечение и интересная активность для корпоративов и деловых встреч.</p>
+                </div>
+            </div>
+        </div>
+        <a class="buttons-green">Хочу на слоновью ферму</a>
+    </div>
+
+    <!--"Как все это выглядит?", Галерея, "Наши слоны", "Хочу на слоновью ферму"--><!--Специальное решение для медиазапросов-->
+    <div class="our-elephants-block vertical-display-around">
+        <p class="little-open-word special-sollution">Как всё это выглядит</p>
+        <div class="gallery horizon-display-between">
+            <div class="vertical-display-between" style="width: 50%; height: 100%;">
+                <div class="image" style='width: 100%; height: 50%; background-image: url("links/images/1.jpg")'></div>
+                <div class="horizon-display-between" style="width: 100%; height: 50%;">
+                    <div class="image" style='width: 50%; height: 100%; background-image: url("links/images/2.jpg")'></div>
+                    <div class="image" style='width: 50%; height: 100%; background-image: url("links/images/3.jpg")'></div>
+                </div>
+            </div>
+            <div class="horizon-display-between" style="width: 50%; height: 100%;">
+                <div class="image" style='width: 35%; height: 100%; background-image: url("links/images/4.jpg")'></div>
+                <div class="vertical-display-between" style="width: 65%; height: 100%;">
+                    <div class="image" style='width: 100%; height: 50%; background-image: url("links/images/5.jpg")'></div>
+                    <div class="image" style='width: 100%; height: 50%; background-image: url("links/images/6.jpg")'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Блок для картинки, короткой информации о слонах, и кнопки--><!--Специальное решение для медиазапросов-->
+    <div class="vertical-display-around" id="our-elephants-block">
+        <p class="little-open-word special-sollution">Наши слоны</p>
+        <div class="image vertical-display-around" id="gallery" style='background-image: url("links/images/our-ele.jpg");'>
+            <div class="vertical-display-around" id="our-elephants-info">
+                <div class="vertical-display-around" id="info-block">
+                    <p class="general-text text-info">Мы выращиваем и воспитываем слонов из Юго-Восточной Азии и Африки. На нашей ферме одновременно проживают 99 слонов в возрасте от 1 года до 50 лет. Условия содержания слонов на нашей ферме соответствуют всем <span>мировым стандартам</span>.</p>
+                    <p class="general-text text-info">Слоны — лучшие друзья людей! Это социальные животные, которые легко поддаются дрессировке, верно служат и обладают эмпатией. Мы популяризируем семейство слоновьих и приглашаем всех желающих познакомиться с этими добрыми и милыми животными!</p>
+                </div>
+            </div>
+        </div>
+        <div class="empty-block"></div>
+        <a class="buttons-green">Хочу на слоновью ферму</a>
+    </div>
+
+    <!--"О нас пишут"--> <!--1, 2 типа комментов-->
+    <div class="review-block vertical-display-around">
+        <p class="little-open-word">О нас пишут</p>
+        <div class="special-block horizon-display-around">
+            <div class="horizon-display-between" style="width: 30%; height: 70%;">
+                <div class="comment-photo image" style='background-image: url("links/images/5.jpg")'></div>
+                <div class="block-text-comment-1 horizon-display-between" style="flex-wrap: wrap;">
+                    <p class="name-comment-1">Ангелина, 42 года</p>
+                    <p class="comment-1">«Слоновья ферма — это просто открытие! Моя жизнь еревернулась, когда я прокатилась на слоне. Я поменяла работу, съездила в Африку и купила слонёнка»</p>
+                </div>
+            </div>
+            <div class="horizon-display-around" style="width: 30%; height: 70%;">
+                <div class="comment-photo image" style='background-image: url("links/images/6.jpg")'></div>
+                <div class="block-text-comment-1 horizon-display-between" style="flex-wrap: wrap;">
+                    <p class="name-comment-1">Вадим, 35 лет</p>
+                    <p class="comment-1">«Раньше сомневался, стоит ли мне покупать слона. Но после посещения этой фермы перестал колебаться. Теперь это моя мечта»</p>
+                </div>
+            </div>
+            <div class="horizon-display-around" style="width: 30%; height: 70%;">
+                <div class="comment-photo image" style='background-image: url("links/images/4.jpg")'></div>
+                <div class="block-text-comment-1 horizon-display-between" style="flex-wrap: wrap;">
+                    <p class="name-comment-1">Вера, 18 лет</p>
+                    <p class="comment-1">«Я хотела завести котика, но после того, как попала в гости к этим слоникам — мои приоритеты полностью сменились. Слоны — хозяева планеты! Хочу слона и точка!»</p>
+                </div>
+            </div>
+        </div>
+        <div class="special-block horizon-display-around">
+            <div class="horizon-display-around" style="width: 40%; height: 70%;">
+                <p class="big-for-comments">«</p>
+                <p class="comment-2">«Уникальная слоновья ферма! Ради усыновления слоненка сюда приезжают со всего мира.»</p>
+                <p class="big-for-comments">»</p>
+                <p class="name-comment-2">Магнитогорск Таймс</p>
+            </div>
+            <div class="horizon-display-around" style="width: 40%; height: 70%;">
+                <p class="big-for-comments">«</p>
+                <p class="comment-2">«По легенде именно здесь была сочинена басня „Слон и Моська“»</p>
+                <p class="big-for-comments">»</p>
+                <p class="name-comment-2">Городские известия</p>
+            </div>
+        </div>
+        <div class="empty-block"></div>
+    </div>
+
+    <!--Наша команда и контакты-->
+    <div class="about-persons-block vertical-display-around">
+        <p class="little-open-word">Кто мы такие?</p>
+        <p class="general-text">В нашей команде собрались профессионалы и фанаты своего дела. У нас большой опыт работы в сфере разведения и воспитания слонов.</p>
+        <div class="persons-block horizon-display-around">
+            <div class="person vertical-display-around">
+                <div class="image" style='width: 100%; height: 80%; background-size: 100%; background-image: url("links/images/p1.jpg")'>
+                    <div class="follow-me-box horizon-display-around">
+                        <a href=""><div class="social-href" style='background-image: url("links/images/facebook.png")'></div></a>
+                        <a href=""><div class="social-href" style='background-image: url("links/images/instagram.png")'></div></a>
+                        <a href=""><div class="social-href" style='background-image: url("links/images/youtube.png")'></div></a>
+                        <a href=""><div class="social-href" style='background-image: url("links/images/pint.png")'></div></a>
+                    </div>
+                </div>
+                <p class="person-name">Марта Смирнова</p>
+                <p class="person-rule">Слоновий заводчик и воспитатель</p>
+            </div>
+            <div class="person vertical-display-around">
+                <div class="image" style='width: 100%; height: 80%; background-size: 300%; background-image: url("links/images/p2.jpg")'>
+                    <div class="follow-me-box horizon-display-around">
+                        <a href=""><div class="social-href" style='background-image: url("links/images/facebook.png")'></div></a>
+                        <a href=""><div class="social-href" style='background-image: url("links/images/instagram.png")'></div></a>
+                        <a href=""><div class="social-href" style='background-image: url("links/images/youtube.png")'></div></a>
+                        <a href=""><div class="social-href" style='background-image: url("links/images/pint.png")'></div></a>
+                    </div>
+                </div>
+                <p class="person-name">Евгений Весельчак</p>
+                <p class="person-rule">Тренер и диетолог</p>
+            </div>
+            <div class="person vertical-display-around">
+                <div class="image" style='width: 100%; height: 80%; background-size: 250%; background-image: url("links/images/p3.jpg")'>
+                    <div class="follow-me-box horizon-display-around">
+                        <a href=""><div class="social-href" style='background-image: url("links/images/facebook.png")'></div></a>
+                        <a href=""><div class="social-href" style='background-image: url("links/images/instagram.png")'></div></a>
+                        <a href=""><div class="social-href" style='background-image: url("links/images/youtube.png")'></div></a>
+                        <a href=""><div class="social-href" style='background-image: url("links/images/pint.png")'></div></a>
+                    </div>
+                </div>
+                <p class="person-name">Катерна Пак</p>
+                <p class="person-rule">Менеджер по работе с клиентами</p>
+            </div>
+        </div>
+    </div>
+
+    <!--"Наши успехи", Галерея-->
+    <div class="vertical-display-around" id="achievements-block">
+        <p class="little-open-word">Наши успехи</p>
+        <p class="general-text">Мы каждый день разрабатываем новые учебные методики, благодаря которым наши слоны становятся воспитаннее и умнее. Посмотрите, чему научились наши слоны за последний год!</p>
+        <div class="achievements horizon-display-between" style="flex-wrap: wrap;">
+            <!--используем relative-price-open-text-->
+            <div class="achievement" style='background-image: url("links/images/a1.jpg")'>
+                <div class="green-achievement"><p class="price-open-text relative-price-open-text">Слон Артур выступает за феминизм</p></div>
+            </div>
+            <div class="achievement" style='background-image: url("links/images/a2.jpg")'>
+                <div class="green-achievement"><p class="price-open-text relative-price-open-text">Слон Артур выступает за феминизм</p></div>
+            </div>
+            <div class="achievement" style='background-image: url("links/images/a3.jpg")'>
+                <div class="green-achievement"><p class="price-open-text relative-price-open-text">Слон Артур выступает за феминизм</p></div>
+            </div>
+            <div class="achievement" style='background-image: url("links/images/a4.jpg")'>
+                <div class="green-achievement"><p class="price-open-text relative-price-open-text">Слон Артур выступает за феминизм</p></div>
+            </div>
+            <div class="achievement" style='background-image: url("links/images/a5.jpg")'>
+                <div class="green-achievement"><p class="price-open-text relative-price-open-text">Слон Артур выступает за феминизм</p></div>
+            </div>
+            <div class="achievement" style='background-image: url("links/images/a6.jpg")'>
+                <div class="green-achievement"><p class="price-open-text relative-price-open-text">Слон Артур выступает за феминизм</p></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Блог-->
+    <div class="blog-block vertical-display-around">
+        <p class="little-open-word">Наш блог</p>
+
+        <!--Блог-->
+        <!--используем person-name person-rule-->
+        <div class="news-box horizon-display-between">
+            <div class="news">
+                <div class="preview horizon-display-between" style='background-image: url("links/images/b1.jpg")'><p class="number-news">12.11</p></div>
+                <p class="person-name relative-person-name" style="width: 100%;">День рождения слонихи Вики</p>
+                <p class="person-rule relative-person-rule" style="width: 100%;">Сегодня поздравляем нашу подопечную с праздником!</p>
+            </div>
+            <div class="news">
+                <div class="preview horizon-display-between" style='background-image: url("links/images/b2.jpg")'><p class="number-news">23.11</p></div>
+                <p class="person-name relative-person-name" style="width: 100%;">День открытых дверей!</p>
+                <p class="person-rule relative-person-rule" style="width: 100%;">Приглашаем посетить слоновью ферму.</p>
+            </div>
+            <div class="news">
+                <div class="preview horizon-display-between" style='background-image: url("links/images/b3.jpg")'><p class="number-news">24.11</p></div>
+                <p class="person-name relative-person-name" style="width: 100%;">Почему слоны любят купаться</p>
+                <p class="person-rule relative-person-rule" style="width: 100%;">Рассказываем о самом популярном слоновьем развлечении.</p>
+            </div>
+        </div>
+        <a href="" class="buttons-blog-follow">Хочу на слоновью ферму</a>
+    </div>
+
+    <!--Контакты, адреса, "Подписаться"-->
+    <!--используем person-name person-rule-->
+    <div class="vertical-display-around" id="special-block-3"><p class="little-open-word" style="line-height: 0;">Связаться с нами</p></div>
+    <div class="callback-block vertical-display-between">
+        <div class="call-container horizon-display-between">
+            <div class="vertical-display-around" style="width: 50%; height: 70%;">
+                <div class="horizon-display-between" style="justify-content: start; width: 100%;">
+                    <div class="empty-block"></div>
+                    <div class="icon-callback" style='background-image: url("links/images/phone.png")'></div>
+                    <div class="empty-block"></div>
+                    <p class="callback-big-text" style="border-color: rgba(0, 0, 0, 0);">+7 495 649-62-19</p>
+                </div>
+                <div class="horizon-display-between" style="justify-content: start; width: 100%;" id="special-block-4">
+                    <div class="empty-block"></div>
+                    <div class="icon-callback" style='background-image: url("links/images/dog.png")'></div>
+                    <div class="empty-block"></div>
+                    <p class="callback-big-text">team@emailmatrix.ru</p>
+                </div>
+            </div>
+            <div class="vertical-display-around" style="align-items: start; width: 50%; height: 70%;">
+                <p class="person-rule relative-person-rule" style="width: 60%;">МОСКВА ВОСТОК 109428, 1-й Вязовский пр-д., 4, стр. 19</p>
+                <p class="person-rule relative-person-rule" style="width: 60%;">МОСКВА ЮГ 117403, 31-й км МКАД, влад. 12</p>
+                <p class="person-rule relative-person-rule" style="width: 60%;">МОСКВА ТЕРМИНАЛ М 117403, 31-й км МКАД, Востряковский пр., д. 10Г</p>
+            </div>
+        </div>
+    </div>
+    <div class="callback-block vertical-display-around" id="special-block-5">
+        <p class="little-open-word">Связаться с нами</p>
+        <p class="general-text">Подпишитесь на наши рассылки, чтобы быть всегда в курсе дел команды и ставить лайки нашим питомцам.</p>
+        <div class="horizon-display-between" style="flex-wrap: wrap; width: 45%">
+            <input class="input-follow">
+            <input class="input-follow">
+        </div>
+        <a href="" class="buttons-blog-follow">Подписаться</a>
+    </div>
+
+    <!--Логотип и ссылки-->
+    <div class="footer horizon-display-around">
+        <img src="links/images/whiteLogo.png" id="image-footer">
+        <div class="empty-block"></div>
+        <div class="folow-footer horizon-display-around">
+            <a href=""><div class="social-href" style='background-image: url("links/images/facebook.png")'></div></a>
+            <a href=""><div class="social-href" style='background-image: url("links/images/instagram.png")'></div></a>
+            <a href=""><div class="social-href" style='background-image: url("links/images/youtube.png")'></div></a>
+            <a href=""><div class="social-href" style='background-image: url("links/images/pint.png")'></div></a>
+        </div>
+    </div>
+</body>
+</html>

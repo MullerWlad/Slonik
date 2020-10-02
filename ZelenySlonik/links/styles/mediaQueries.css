@@ -1,0 +1,440 @@
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    /*Автоскролл*/
+    .scroller-body{
+        width: 11.6px;
+        height: 11.6px;
+        background: #88e7a5;
+        color: white;
+        cursor: pointer;
+        font-family: cicleExtraBold;
+        font-size: 13.3px;
+        transform: rotate(-90deg);
+        position: fixed;
+        text-align: center;
+        line-height: 82%;
+        user-select: none;
+        margin: 85vh 0 0 90vw;
+        z-index: 99;
+    }
+
+    /*Топбар с меню*/
+    .topbar-block{
+        background: #1a1e22;
+        opacity: 80%;
+        width: 224px;
+        height: 9.16px;
+        padding: 0 48px 0 48px;
+        margin: 0;
+        position: fixed;
+        z-index: 100;
+    }
+    #image-logo{
+        width: 16.6px;
+        height: 11.6px;
+    }
+    .menu-item{
+        margin: 0 5.8px 0 5.8px;
+        font-size: 2.6px;
+        color: white;
+        transition-duration: 0.5s;
+        height: 9.16px;
+        display: block;
+        line-height: 9.16px;
+    }
+    .menu-item:hover{
+        color: #88e7a5;
+    }
+
+    /*Тайтлплейс*/
+    .title-block{
+        width: 320px;
+        height: 116.6px;
+        background-image: url("../images/elephant-title-shadow.png");
+        background-repeat: no-repeat;
+        background-position: 20% 100%;
+        background-size: cover;
+    }
+    .open-word{
+        font-size: 10px;
+        font-family: cicleExtraBold;
+        text-align: center;
+        width: 200px;
+        text-shadow: gray 0.16px 0 1.6px;
+        line-height: 10px;
+    }
+    .buttons{
+        height: 8.3px;
+        font-size: 4.6px;
+        padding-left: 8.3px;
+        padding-right: 8.3px;
+        border: solid 0.83px white;
+        line-height: 8.3px;
+        transition-duration: 0.5s;
+    }
+    .buttons:hover{
+        color: #88e7a5;
+        border: #88e7a5 solid 0.83px;
+    }
+
+    /*Заголовок*/
+    .little-open-word{
+        font-family: cicleRegular;
+        font-size: 6px;
+        border-bottom: #88e7a5 solid 0.5px;
+        height: 11.6px;
+    }
+
+    /*Блок с информацией*/
+    .about-info-block{
+        width: 320px;
+        height: 100px;
+    }
+
+    /*Общий текст*/
+    .general-text{
+        font-family: Arial;
+        font-size: 3.3px;
+        text-align: center;
+        width: 133.3px;
+        line-height: 5px;
+    }
+
+    /*Блок со статистикой*/
+    .statistic-block{
+        width: 100%;
+        background: #dee7e1;
+        height: 41.6px;
+    }
+    .statistic-item{
+        width: 41.6px;
+        height: 100%;
+        border-left: white 0.16px solid;
+        border-right: white 0.16px solid;
+    }
+    .statistic-number{
+        font-family: cicleExtraBold;
+        font-size: 22.16px;
+        color: #5b675e;
+        line-height: 0px;
+        position: absolute;
+        margin-top: 11.6px;
+        z-index: 0;
+    }
+    .statistic-text{
+        font-family: cicleRegular;
+        font-size: 3.83px;
+        color: #5b675e;
+        line-height: 3.3px;
+        width: 25px;
+        text-align: center;
+        margin-top: 21.6px;
+    }
+
+    /*Блок услуг*/
+    .price-block{
+        width: 320px;
+        height: 250px;
+    }
+    .price-menu{
+        width: 100%;
+        height: 166.6px;
+        margin: 8.3px 0 8.3px 0;
+    }
+    .price-open-text{
+        font-size: 9.3px;
+        font-family: cicleExtraBold;
+        width: 66.6px;
+        text-shadow: gray 0.16px 0 1.6px;
+        line-height: 7.5px;
+        color: white;
+        margin: 11.6px 0 0 8.3px;
+        z-index: 3;
+        position: absolute;
+    }
+    .green-price{
+        width: 106.6px;
+        height: 83.3px;
+        position: absolute;
+        z-index: 2;
+        transition-duration: 0.5s;
+        background: rgba(136, 231, 165, 0.7);
+        cursor: pointer;
+        opacity: 0;
+    }
+    .green-price:hover{
+        opacity: 1;
+    }
+    .special-sollution{
+        margin-top: 60px;
+    }
+
+    /*Панели-кнопки*/
+    .buttons-green{
+        height: 8.3px;
+        font-size: 4.6px;
+        padding-left: 8.3px;
+        padding-right: 8.3px;
+        border: #88e7a5 solid 0.83px;
+        color: #88e7a5;
+        line-height: 8.3px;
+        transition-duration: 0.5s;
+    }
+    .buttons-green:hover{
+        color: white;
+        background: #88e7a5;
+    }
+
+    /*Наши слоны*/
+    .our-elephants-block{
+        width: 320px;
+        height: 150px;
+    }
+    .gallery{
+        width: 100%;
+        height: 166.6px;
+    }
+    #our-elephants-block{
+        width: 320px;
+        height: 270px;
+    }
+    #gallery{
+        width: 100%;
+        height: 150px;
+    }
+    #info-block{
+        width: 73.3px;
+        height: 68.3px;
+        padding: 10px 10px 10px 10px;
+        background: white;
+        box-shadow: black 0 1.16px 5px;
+        margin: 100px 0 0 66.6px;
+    }
+    .text-info{
+        text-align: start;
+        width: 73.3px;
+    }
+
+    /*Отзывы*/
+    .review-block{
+        width: 320px;
+        background: #dee7e1;
+        height: 108.3px;
+        margin-top: 11.6px;
+    }
+    .comment-photo{
+        width: 16.6px;
+        height: 16.6px;
+        border-radius: 166.6px;
+    }
+    .comment-1 {
+        font-family: cicleRegular;
+        font-size: 2.33px;
+        width: 100%;
+        line-height: 3.3px;
+        margin-top: -3.3px;
+    }
+    .name-comment-1{
+        font-family: cicleRegular;
+        font-size: 3.16px;
+        width: 100%;
+    }
+    .big-for-comments{
+        font-family: cicleRegular;
+        color: #88e7a5;
+        font-size: 13.3px;
+    }
+    .comment-2{
+        font-family: cicleRegular;
+        font-size: 2.83px;
+        width: 50px;
+        line-height: 3.3px;
+    }
+    .name-comment-2{
+        font-family: cicleRegular;
+        font-size: 2.3px;
+        position: absolute;
+        margin: 16.6px 0 0 41.6px;
+    }
+
+    /*Команда*/
+    .about-persons-block{
+        width: 320px;
+        height: 150px;
+    }
+    .persons-block{
+        width: 200px;
+        height: 83.3px;
+    }
+    .person{
+        height: 100%;
+        width: 50px;
+    }
+    .follow-me-box{
+        width: 40px;
+        height: 66.6px;
+        background: rgba(136, 231, 165, 0.7);
+        opacity: 0;
+        transition-duration: 0.2s;
+        margin: 0px 0 0 0px;
+        position: absolute;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .follow-me-box:hover{
+        opacity: 1;
+        margin: -3.3px 0 0 -3.3px;
+    }
+    .person-name{
+        font-family: cicleRegular;
+        font-size: 4.3px;
+        line-height: 0;
+    }
+    .person-rule{
+        font-family: cicleRegular;
+        font-size: 2.6px;
+        line-height: 0;
+        margin-top: -1.6px;
+    }
+    .social-href{
+        width: 8.3px;
+        height: 8.3px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    /*Успехи*/
+    #achievements-block{
+        width: 320px;
+        height: 166.6px;
+    }
+    .achievements{
+        width: 216.6px;
+        height: 116.6px;
+    }
+    .achievement{
+        width: 70px;
+        height: 55px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .green-achievement:hover{
+        opacity: 1;
+    }
+    .relative-price-open-text{
+        font-size: 6.6px;
+        line-height: 5px;
+        margin: 20px 0 0 16.6px;
+    }
+
+    /*Блог*/
+    .blog-block{
+        width: 320px;
+        height: 116.6px;
+    }
+    .news-box{
+        width: 216.6px;
+        height: 66.6px;
+    }
+    .news{
+        width: 66.6px;
+        height: 100%;
+    }
+    .preview{
+        width: 100%;
+        height: 41.6px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .number-news{
+        font-size: 4.5px;
+        font-family: cicleExtraBold;
+        color: white;
+        background: rgba(136, 231, 165, 0.7);
+        padding: 1.16px 3.3px 1.16px 3.3px;
+        margin-top: 25px;
+    }
+    .relative-person-name{
+        line-height: 5px;
+    }
+    .relative-person-rule{
+        line-height: 3.3px;
+    }
+    .buttons-blog-follow{
+        height: 8.3px;
+        font-size: 4.6px;
+        padding-left: 8.3px;
+        padding-right: 8.3px;
+        background: #88e7a5;
+        border: solid 0.83px #88e7a5;
+        color: white;
+        line-height: 8.3px;
+        transition-duration: 0.5s;
+    }
+    .buttons-blog-follow:hover{
+        color: #88e7a5;
+        background: none;
+    }
+
+    /*Связаться с нами*/
+    #special-block-3{
+        width: 320px;
+        height: 16.6px;
+        background: #dee7e1;
+        padding-top: 8.3px;
+        margin-top: 8.3px;
+    }
+    .callback-block{
+        width: 320px;
+        height: 50px;
+        background: #dee7e1;
+    }
+    .call-container{
+        height: 100%;
+        width: 166.6px;
+    }
+    .icon-callback{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 11.6px;
+        height: 11.6px;
+    }
+    #special-block-4{
+        margin-top: -6.6px;
+    }
+    .callback-big-text{
+        font-family: cicleRegular;
+        font-size: 5px;
+        border-bottom: #88e7a5 0.3px solid;
+    }
+
+    /*подписаться*/
+    #special-block-5{
+        background: white;
+        height: 83.3px;
+        padding-bottom: 8.3px;
+    }
+    .input-follow{
+        width: 66.6px;
+        height: 10px;
+        outline: none;
+        border: #88e7a5 0.25px solid;
+    }
+
+    /*Футер*/
+    .footer{
+        width: 320px;
+        height: 33.3px;
+        background: #3f4943;
+    }
+    #image-footer{
+        width: 25px;
+        height: 17.5px;
+    }
+    .folow-footer{
+        width: 40px;
+    }
+}

@@ -1,0 +1,65 @@
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+h1::selection{
+    background: #88e7a5;
+    color: white;
+}
+
+h2::selection{
+    background: #88e7a5;
+    color: white;
+}
+
+h3::selection{
+    background: #88e7a5;
+    color: white;
+}
+
+h4::selection{
+    background: #88e7a5;
+    color: white;
+}
+
+a::selection{
+    background: #88e7a5;
+    color: white;
+}
+
+p::selection{
+    background: #88e7a5;
+    color: white;
+}
+
+span::selection{
+    background: #88e7a5;
+    color: white;
+}
+
+@font-face {
+    font-family: cicleRegular;
+    src: url("../fonts/circe.ttf");
+}
+
+@font-face {
+    font-family: cicleExtraBold;
+    src: url("../fonts/circe_extrabold.ttf");
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    font-family: cicleRegular;
+}
+
+span{
+    color: #88e7a5;
+    text-decoration: underline;
+}
